@@ -12,16 +12,20 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   color: hsl(0, 11%, 12%);
   font-weight: 700;
+  background: hsl(185, 75%, 39%);
+  overflow: hidden;
+  /* background-image: url('./images/bg-pattern-top.svg') no-repeat; */
 }
 
 section{
-    background: hsl(185, 75%, 39%);
+    /* background-image: url('./images/bg-pattern-bottom.svg') no-repeat; */
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card{
@@ -102,4 +106,23 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.circle-top{
+    position: absolute;
+    background-repeat: no-repeat;
+    /* background-image: url('./images/bg-pattern-top.svg'); */
+    height: auto;
+    width: 100vw;
+    transform: translate(-15vw, -50vh) ;
+    z-index: -1;
+}
+
+.circle-bottom{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: fit-content;
+    transform: translate(30vw, 65vh) ;
+    z-index: -1;
 }
