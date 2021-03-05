@@ -7,9 +7,7 @@
 body {
   background: hsl(185, 75%, 39%);
   height: 100vh;
-  /* overflow: hidden; */
-  display: flex;
-  position: relative;
+  overflow: hidden; 
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -122,3 +120,5 @@ span {
   height: 50px;
   font-family: "kumbh Sans", sans-serif;
 }
+
+
